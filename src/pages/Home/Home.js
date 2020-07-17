@@ -17,7 +17,9 @@ class Home extends Component {
 
     fetchData = () => {
         QuestionModel.all().then(data => {
-            this.setState({ questionSets: data.questionSet })
+            if (data.questionSet) {
+                this.setState({ questionSets: data.questionSet })
+            }
         })
     }
 
