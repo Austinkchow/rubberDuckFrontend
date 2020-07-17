@@ -1,4 +1,4 @@
-const REACT_APP_API_URL = "https://rubberduckinterviewer.herokuapp.com"
+const REACT_APP_API_URL = "https://rubberduckinterviewer.herokuapp.com/api/v1"
 
 export default class QuestionModel {
     static all() {
