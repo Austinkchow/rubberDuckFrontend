@@ -1,4 +1,4 @@
-const REACT_APP_API_URL = "https://rubberduckinterviewer.herokuapp.com/"
+const REACT_APP_API_URL = "https://rubberduckinterviewer.herokuapp.com"
 
 export default class UserModel {
     static create(data) {
