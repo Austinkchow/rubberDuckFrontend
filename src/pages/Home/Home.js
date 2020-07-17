@@ -40,7 +40,7 @@ class Home extends Component {
                 <div className="select">
                     <select onChange={this.onChange} name="questionSet" >
                         <option>Select Your Interview Questions</option>
-                        {this.state.questionSets.map(questionSet => {
+                        {this.state.questionSets.length > 0 && this.state.questionSets.map(questionSet => {
                             return (
                                 <option value={`${questionSet._id}`}>{`${questionSet.name}`}</option>
                             )
