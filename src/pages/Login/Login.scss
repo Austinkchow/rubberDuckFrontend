@@ -1,0 +1,36 @@
+.form{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form_container {
+        width: 50%;
+        min-width: 360px;
+        height: 50%;
+        background-color: white;
+        border: solid #000000 .1rem;
+        border-radius: 3%;
+    }
+    .title {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 2rem;;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .form-group{
+            padding-top: 2rem;
+            label {
+                padding-right: 10px;
+            }
+            }
+        button {
+            margin-top: 2rem;
+            height: 2rem;
+            width: 8rem;
+        }
+    }
+}

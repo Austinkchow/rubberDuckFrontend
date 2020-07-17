@@ -1,0 +1,29 @@
+.show{
+    h2{
+        padding: 3rem;
+        text-align: center;
+        color: white;
+        font-size: 30px
+    }
+    .edit{
+        display:flex;
+        justify-content: center;
+        a{
+        padding: 1rem;
+        border: solid black .1rem;
+        background-color: white;
+        color: black;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        }
+        
+    }
+}
+
+@media all and (max-width:600px) {
+    .show{
+        h2 {
+            font-size: 6vw;
+        }
+    }
+}

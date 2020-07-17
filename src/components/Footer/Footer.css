@@ -1,0 +1,20 @@
+.footer {
+  background-color: #0f4c75;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer h3 {
+  color: #bbe1fa;
+  font-size: 1rem;
+  text-align: center;
+}
+/*# sourceMappingURL=Footer.css.map */

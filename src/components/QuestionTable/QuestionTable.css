@@ -1,0 +1,58 @@
+.QuestionTable {
+  height: 75vh;
+}
+
+.QuestionTable .QuestionSetCard {
+  background-color: #bbe1fa;
+  color: #1b262c;
+  margin: 1rem auto;
+  padding: 1vh;
+  border: white solid .1rem;
+  width: 90vw;
+  max-width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.QuestionTable .QuestionAdd {
+  margin-top: 13rem;
+  background-color: white;
+  width: 90vw;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.QuestionTable .QuestionAdd form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.QuestionTable .QuestionAdd form label {
+  padding-top: 1rem;
+  color: black;
+  font-size: 1rem;
+}
+
+.QuestionTable .QuestionAdd input {
+  margin-top: 1rem;
+  height: 2rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=QuestionTable.css.map */

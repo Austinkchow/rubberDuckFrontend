@@ -1,0 +1,47 @@
+@import '../../styles/color';
+
+a {
+color: white;
+text-decoration: none;
+
+}
+
+.topNav {
+    background-color: $color2;
+    .headerIcon {
+        display: flex;
+        min-height: 10vh;
+        justify-content: center;
+        align-items: center;
+        font-size: max(3rem);
+        font-weight: 700;
+    }
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: $color3;
+    min-height: 5vh;
+    li{
+        display: flex;
+        float: left;
+        display:block;
+        padding:1rem;
+        :hover{
+            color: $color1;
+        }
+    }
+}
+@media all and (max-width:600px) {
+    .headerIcon {
+        .Title{
+            a{
+                font-size: 7vw;
+            }
+        }
+    }
+}

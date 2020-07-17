@@ -1,0 +1,10 @@
+@import '../../styles/color';
+.questionSetCard{
+  background-color: $color4;
+  color: $color1;
+  margin: 1rem auto;
+  padding: 1vh;
+  border: white solid .1rem;
+  width: 90vw;
+  max-width: 400px;
+}

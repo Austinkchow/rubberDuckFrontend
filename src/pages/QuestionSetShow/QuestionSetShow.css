@@ -1,0 +1,31 @@
+.show h2 {
+  padding: 3rem;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.show .edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.show .edit a {
+  padding: 1rem;
+  border: solid black .1rem;
+  background-color: white;
+  color: black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media all and (max-width: 600px) {
+  .show h2 {
+    font-size: 6vw;
+  }
+}
+/*# sourceMappingURL=QuestionSetShow.css.map */

@@ -1,0 +1,33 @@
+@import '../../styles/color.scss';
+@import '../../styles/align.css';
+.question_number {
+    margin-top: 5vh;
+    display:flex;
+    justify-content: center;
+    font-size: 2.5vh;
+    color: $color4;
+}
+.question_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    .display_question {
+        width: 70%;
+        max-width: 500px;
+        height: 20%;
+        min-height: 180px;
+        h2 {
+            font-size: 4vh;
+            text-align: center;
+            color: white;
+        }
+    }
+    button {
+            width: 15vw;
+            max-width: 150px;
+            height: 4vh;
+            font-weight: 800;
+            border-width: 0.2rem;
+            background-color: white;
+    }
+}

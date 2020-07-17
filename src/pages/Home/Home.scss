@@ -1,0 +1,23 @@
+@import '../../styles/color';
+
+img {
+    display: block;
+    margin: 1vh auto 2vh auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5vh;
+    select {
+        width:80%;
+        max-width: 500px;
+        height: 2rem;
+        margin-top: 5rem;
+        border-width: 0.2rem;
+        margin-bottom: 5rem;
+    }
+}

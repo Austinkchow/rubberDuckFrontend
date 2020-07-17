@@ -1,0 +1,58 @@
+.form {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form .form_container {
+  width: 50%;
+  min-width: 360px;
+  height: 50%;
+  background-color: white;
+  border: solid #000000 .1rem;
+  border-radius: 3%;
+}
+
+.form .title {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form form .form-group {
+  padding-top: 2rem;
+}
+
+.form form .form-group label {
+  padding-right: 10px;
+}
+
+.form form button {
+  margin-top: 2rem;
+  height: 2rem;
+  width: 8rem;
+}
+/*# sourceMappingURL=Login.css.map */
